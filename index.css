@@ -1,0 +1,65 @@
+/* Home Page Begins */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.home_wrapper {
+	background-image: url('./images/Background.jpg');
+	background-color: white;
+	position: absolute;
+	width: 1440px;
+	height: 866px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	font-family: 'Rubik', sans-serif;
+}
+
+/* Navbar begins */
+.navbar_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar_left {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 7vw;
+}
+
+.navbarleft_taskdo {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+.navbarleft_taskdo_icon {
+	margin-top: 20px;
+	height: 32.54px;
+	width: 34px;
+}
+.navbarleft_taskdo_heading {
+	margin-top: 20px;
+	font-size: 1.6rem;
+}
+
+.navbarleft_items {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 2vh;
+	margin-left: 7vw;
+}
+.navbarleft_items_id {
+	font-weight: normal;
+	margin-left: 1.5vw;
+	margin-left: 2vw;
+	font-size: 1rem;
+}
+/* Navbar ends */
+/* Hero begins */
+.hero_wrapper {
+}
+/* Hero ends */
+
+/* Carousel begins */
+.carousel_wrapper {
+}
+/* Carousel ends */
+/* Home page ends */
