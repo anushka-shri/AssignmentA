@@ -235,7 +235,7 @@ html {
 	background: #d5fafc;
 	margin-top: 5vh;
 	width: 100vw;
-	height: 120vh;
+	height: 135vh;
 }
 
 .inverted_comma {
@@ -275,7 +275,7 @@ html {
 }
 .testimonial1 {
 	height: 50vh;
-	margin-left: 25vw;
+	margin-left: 27vw;
 	width: 17vw;
 	padding: 2%;
 	background: white;
@@ -342,14 +342,128 @@ html {
 	opacity: 0.4;
 }
 .testimonial2 {
+	margin-left: 47vw;
+	transform: translate(10%,-170%);
+	width:23vw;
+	height:35vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	padding: 2%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+}
+.testimonial2_text {
+	font-family: Inter;
+	width: 20vw;
+	transform: translate(0%, -40%);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	line-height: 27px;
+	text-align: left;
+	margin-left: 2vw;
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+    font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191f;
+}
+.testimonial2_minitxt {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transform: translate(25%, 300%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+}
+.testimonial2_minitxt2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transform: translate(25%, 340%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+	opacity: 0.4;
 }
 .testimonial3 {
+margin-left: 48vw;
+	transform: translate(8%,-180%);
+	width:17vw;
+	height:30vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	padding: 2%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+}
+.testimonial3_text {
+	font-family: Inter;
+	width: 15vw;
+	transform: translate(-1%, -75%);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	line-height: 27px;
+	text-align: left;
+	margin-left: 2vw;
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+    font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191f;
+}
+.testimonial3_minitxt {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transform: translate(15%, 250%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+}
+.testimonial3_minitxt2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+transform: translate(15%, 290%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+	opacity: 0.4;
 }
 /* Reviews End*/
 /* Home Ends */
