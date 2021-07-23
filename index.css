@@ -1,11 +1,19 @@
 /* Home Page Begins */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body,
+html {
+	height: 100%;
+}
+.app_container {
+}
 .home_wrapper {
 	background-image: url('./images/Background.jpg');
 	background-color: white;
-	position: absolute;
-	width: 1440px;
-	height: 866px;
+	background-size: auto;
+	position: relative;
+	width: 100vw;
+	height: 120vh;
 	left: 0px;
 	top: 0px;
 	z-index: -1;
@@ -21,7 +29,7 @@
 .navbar_left {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 7vw;
+	margin-left: 9vw;
 }
 
 .navbarleft_taskdo {
@@ -51,6 +59,17 @@
 	margin-left: 1.5vw;
 	margin-left: 2vw;
 	font-size: 1rem;
+}
+
+.navbar_right {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 9vw;
+}
+.navbar_right_logo2 {
+	margin-left: 1vw;
 }
 /* Navbar ends */
 /* Hero begins */
