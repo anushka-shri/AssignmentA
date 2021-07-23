@@ -180,9 +180,9 @@ html {
 
 .TailorM_desc {
 	position: static;
-	width: 45vw;
+	width: 40vw;
 	height: 64px;
-	margin-left: 25vw !important;
+	margin-left: 27vw !important;
 	margin-top: 6vh !important;
 
 	/* Lead / Lead 1 */
@@ -235,33 +235,121 @@ html {
 	background: #d5fafc;
 	margin-top: 5vh;
 	width: 100vw;
-	height: 100vh;
+	height: 120vh;
 }
 
 .inverted_comma {
-	height:120px;
-	width:142.37px;
+	height: 120px;
+	width: 142.37px;
 	position: absolute;
-	margin-left: 15vw;
+	margin-left: 11vw;
 	margin-top: 10vh;
 	mix-blend-mode: multiply;
+	opacity: 0.4;
+}
+
+.reviews_sub {
+	margin-left: 19vw;
+	margin-top: 42vh;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
 }
 
 .reviews_heading {
 	position: absolute;
-	width: 40vw;
+	width: 30vw;
 	height: 15vh;
-	margin-left: 23vw;
+	margin-left: 19vw;
 	margin-top: 22vh;
 	mix-blend-mode: multiply;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-feature-settings: 'salt' on, 'liga' off;
 	color: #18191f;
 	flex: none;
 	order: 0;
 	flex-grow: 0;
 }
+.testimonial1 {
+	height: 50vh;
+	margin-left: 25vw;
+	width: 17vw;
+	padding: 2%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+}
+
+.t_smallcomma {
+	height: 14px;
+	width: 16px;
+	opacity: 0.4;
+	margin-top: 3vh;
+}
+
+.testimonial1_text {
+	font-family: Inter;
+	width: 15vw;
+	transform: translate(-4%, -20%);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	line-height: 27px;
+	text-align: left;
+	margin-left: 3vw;
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191f;
+}
+
+.testimonial1_minitxt {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transform: translate(15%, 470%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+}
+.testimonial1_minitxt2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	transform: translate(15%, 510%);
+	position: absolute;
+	width: 147px;
+	height: 52px;
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	flex-grow: 0;
+	opacity: 0.4;
+}
+.testimonial2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.testimonial3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+/* Reviews End*/
 /* Home Ends */
