@@ -1,12 +1,12 @@
 /* Home Page Begins */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body,
 html {
 	height: 100%;
 }
-.app_container {
-}
+
 .home_wrapper {
 	background-image: url('./images/Background.jpg');
 	background-color: white;
@@ -72,8 +72,38 @@ html {
 	margin-left: 1vw;
 }
 /* Navbar ends */
+
 /* Hero begins */
 .hero_wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+
+.hero_left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 28vh;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: 4rem;
+}
+.hero_left_btn {
+	height: 6vh;
+	width: 10vw;
+	margin-top: 3vh;
+	padding: 1%;
+	border-radius: 8px;
+	background: rgb(122, 16, 209);
+	font-size: 1rem;
+	border: none;
+	text-decoration: none;
+	color: white;
+}
+
+.hero_right {
+	margin-top: 15vh;
 }
 /* Hero ends */
 
