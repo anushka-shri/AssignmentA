@@ -9,12 +9,12 @@ html {
 }
 
 .home_wrapper {
-	background-image: url('./images/HeroNnav/Background.jpg');
+	background-image: url('./images/HeroNnav/Background.png');
 	background-color: white;
-	background-size: auto;
+	background-size: cover;
 	position: relative;
-	width: 102vw;
-	height: 120vh;
+	width: 100vw;
+	height: 127vh;
 	left: 0px;
 	top: 0px;
 	z-index: -1;
@@ -111,7 +111,7 @@ html {
 
 /* Carousel begins */
 .carousel_wrapper {
-	margin-top:2vh;
+	/* margin-top:2vh; */
 	display: flex;
 	flex-direction: column;
 }
@@ -227,4 +227,41 @@ html {
 }
 
 /* Features End */
+
+/* Reviews begin */
+
+.reviews_wrapper {
+	position: absolute;
+	background: #d5fafc;
+	margin-top: 5vh;
+	width: 100vw;
+	height: 100vh;
+}
+
+.inverted_comma {
+	height:120px;
+	width:142.37px;
+	position: absolute;
+	margin-left: 15vw;
+	margin-top: 10vh;
+	mix-blend-mode: multiply;
+}
+
+.reviews_heading {
+	position: absolute;
+	width: 40vw;
+	height: 15vh;
+	margin-left: 23vw;
+	margin-top: 22vh;
+	mix-blend-mode: multiply;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 3rem;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191f;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
 /* Home Ends */
