@@ -8,7 +8,7 @@ html {
 }
 
 .home_wrapper {
-	background-image: url('./images/Background.jpg');
+	background-image: url('./images/HeroNnav/Background.jpg');
 	background-color: white;
 	background-size: auto;
 	position: relative;
@@ -73,6 +73,8 @@ html {
 }
 /* Navbar ends */
 
+
+
 /* Hero begins */
 .hero_wrapper {
 	display: flex;
@@ -107,8 +109,24 @@ html {
 }
 /* Hero ends */
 
+
+
 /* Carousel begins */
-.carousel_wrapper {
+.carousel_wrapper{
+display: flex;
+flex-direction: column;
+
+}
+
+.carousel_logos{
+    margin-right: 5vw;
+    margin-left:5vw;
+    margin-top:6vh;
+    margin-bottom:6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 /* Carousel ends */
+
 /* Home page ends */
