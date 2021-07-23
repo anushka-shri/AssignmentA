@@ -1,6 +1,7 @@
 /* Home Page Begins */
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
 
 body,
 html {
@@ -12,7 +13,7 @@ html {
 	background-color: white;
 	background-size: auto;
 	position: relative;
-	width: 100vw;
+	width: 102vw;
 	height: 120vh;
 	left: 0px;
 	top: 0px;
@@ -73,8 +74,6 @@ html {
 }
 /* Navbar ends */
 
-
-
 /* Hero begins */
 .hero_wrapper {
 	display: flex;
@@ -105,28 +104,127 @@ html {
 }
 
 .hero_right {
-	margin-top: 15vh;
+	margin-top: 13vh;
+	margin-left: 2vw;
 }
 /* Hero ends */
 
-
-
 /* Carousel begins */
-.carousel_wrapper{
-display: flex;
-flex-direction: column;
-
+.carousel_wrapper {
+	margin-top:2vh;
+	display: flex;
+	flex-direction: column;
 }
 
-.carousel_logos{
-    margin-right: 5vw;
-    margin-left:5vw;
-    margin-top:6vh;
-    margin-bottom:6vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.carousel_logos {
+	margin-right: 5vw;
+	margin-left: 5vw;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 /* Carousel ends */
 
 /* Home page ends */
+
+/* Features start */
+.TailorM_wrapper {
+	/* Auto Layout */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+
+	position: static;
+	left: 31.25%;
+	right: 31.25%;
+	top: 9.52%;
+	bottom: 70.24%;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+	margin: 48px 0px;
+}
+
+.TailorM_heading {
+	position: static;
+	width: 50vw;
+	height: 5vh;
+	margin-left: 23vw !important;
+	top: 0px;
+
+	/* Heading / H2 */
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800 !important;
+	font-size: 3rem;
+
+	/* identical to box height, or 133% */
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+
+	/* Text / Gray 900 */
+	color: #18191f;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+.TailorM_desc {
+	position: static;
+	width: 45vw;
+	height: 64px;
+	margin-left: 25vw !important;
+	margin-top: 6vh !important;
+
+	/* Lead / Lead 1 */
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 100 !important;
+	font-size: 1rem;
+
+	/* or 178% */
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+
+	/* Text / Gray 900 */
+	color: #18191f;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+.Row1_data {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	margin-top: 6vh;
+}
+
+.feature1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1.5vw;
+}
+
+.feature1 p {
+	text-align: center;
+}
+
+/* Features End */
+/* Home Ends */
