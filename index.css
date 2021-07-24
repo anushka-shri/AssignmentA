@@ -481,17 +481,16 @@ html {
 .stats_wrapper {
 	display: flex;
 	flex-direction: row;
-	margin-left: 2vw;
-	padding: 1%;
 	position: absolute;
 	justify-content: space-evenly;
 	background: rgb(255, 255, 255);
 	width: 100vw;
-	height: 55vh;
-	transform: translate(0, 255%);
+	height: 45vh;
+	transform: translate(0, 311%);
 }
 
 .stats_left {
+	margin-top: 15vh;
 	display: flex;
 	flex-direction: column;
 	margin-left: 0;
@@ -534,7 +533,8 @@ html {
 	margin-left: 5vw;
 	display: flex;
 	flex-direction: column;
-	transform: translate(-45%,5%);
+	margin-top: 15vh;
+	transform: translate(-45%, 5%);
 }
 
 /* row 1 */
@@ -545,59 +545,81 @@ html {
 	justify-content: space-evenly;
 }
 
-.stats_row1_c1 {
+.stats_row1_c1,
+.stats_row1_c2 {
 	display: flex;
 	flex-direction: row;
 }
 
-.stats_r1c1_text {
-	display: flex;
-	flex-direction: column;
-}
-
+.stats_r1c1_text,
 .stats_r1c2_text {
 	display: flex;
 	flex-direction: column;
 }
 
-.stats_row1_c2 {
-	display: flex;
-	flex-direction: row;
-}
 /*// row 1 */
 
 /* row2 */
 .stats_row2 {
 	display: flex;
 	flex-direction: row;
-	
 }
 
 .stats_row2_c1 {
 	display: flex;
 	flex-direction: row;
-	margin-right: 6vw;
+	margin-right: 7vw;
 	margin-top: 5vh;
 }
 
-.stats_r2c1_text {
+.stats_r2c1_text,
+.stats_r2c2_text {
 	display: flex;
 	flex-direction: column;
+	margin-top: 1vh;
 }
 
 .stats_row2_c2 {
 	display: flex;
 	flex-direction: row;
+	margin-top: 5vh;
 }
-.stats_r2c2_text {
-	display: flex;
-	flex-direction: column;
+
+.stats_r2c2_text1,
+.stats_r2c1_text1,
+.stats_r1c2_text1,
+.stats_r1c1_text1 {
+	font-weight: 1000;
+	font-size: 1.2rem;
+	margin-left: 1vw;
 }
-/*// row2 */
+
+.stats_r2c2_text2,
+.stats_r2c1_text2,
+.stats_r1c2_text2,
+.stats_r1c1_text2 {
+	margin-top: 1vh;
+	margin-left: 1vw;
+}
+
+/*// row2 End*/
 /* //Stats End*/
+
+/* Last section begins */
+.last_section{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	justify-content: space-evenly;
+	background: rgb(70, 53, 53);
+	width: 100vw;
+	height: 55vh;
+	transform: translate(0, 360%);
+}
+/* //Last section ends */
 /* Home Ends */
 
-/* RESPONSIVE DESIGN */
+/* ----------------RESPONSIVE DESIGN------------------------- */
 
 @media screen and (max-width: 1200px) {
 	.testimonial1 {
@@ -613,12 +635,8 @@ html {
 }
 
 @media screen and (max-width: 1140px) {
-	.testimonial1_text {
-		line-height: 15px;
-	}
-	.testimonial2_text {
-		line-height: 15px;
-	}
+	.testimonial1_text,
+	.testimonial2_text,
 	.testimonial3_text {
 		line-height: 15px;
 	}
@@ -630,17 +648,12 @@ html {
 		height: 3vh;
 	}
 
-	.hero_left_l1 {
+	.hero_left_l1,
+	.hero_left_l2 {
 		font-family: 'Poppins', sans-serif;
 		font-weight: 650;
 		font-size: 3rem;
 		line-height: 0px;
-	}
-	.hero_left_l2 {
-		margin-top: 0;
-		font-family: 'Poppins', sans-serif;
-		font-weight: 650;
-		font-size: 3rem;
 	}
 
 	.navbar_wrapper {
@@ -649,17 +662,12 @@ html {
 }
 
 @media screen and (max-width: 856px) {
-	.hero_left_l1 {
+	.hero_left_l1,
+	.hero_left_l2 {
 		font-family: 'Poppins', sans-serif;
 		font-weight: 450;
 		font-size: 2rem;
 		line-height: 0px;
-	}
-	.hero_left_l2 {
-		margin-top: 0;
-		font-family: 'Poppins', sans-serif;
-		font-weight: 450;
-		font-size: 2rem;
 	}
 }
 
@@ -668,18 +676,12 @@ html {
 		font-weight: 600;
 		font-size: 2rem;
 	}
-	.hero_left_l1 {
+	.hero_left_l1,
+	.hero_left_l2 {
 		font-family: 'Poppins', sans-serif;
 		font-weight: 250;
 		font-size: 2rem;
 		line-height: 0px;
-		margin-left: 2vw;
-	}
-	.hero_left_l2 {
-		margin-top: 0;
-		font-family: 'Poppins', sans-serif;
-		font-weight: 250;
-		font-size: 2rem;
 		margin-left: 2vw;
 	}
 
@@ -687,13 +689,8 @@ html {
 		margin-left: 2vw;
 	}
 
-	.hero_wrapper {
-		flex-direction: column;
-	}
-
-	.Row1_data {
-		flex-direction: column;
-	}
+	.hero_wrapper,
+	.Row1_data,
 	.Row2_data {
 		flex-direction: column;
 	}
@@ -733,22 +730,19 @@ html {
 		height: 30vh;
 		width: 30vw;
 	}
-	.testimonial1_text {
+	.testimonial1_text,
+	.testimonial2_text,
+	.testimonial3_text {
 		width: 25vw;
 	}
 	.testimonial2 {
 		height: 20vh;
 		width: 35vw;
 	}
-	.testimonial2_text {
-		width: 25vw;
-	}
+
 	.testimonial3 {
 		margin-top: 5vh;
 		height: 20vh;
 		width: 30vw;
-	}
-	.testimonial3_text {
-		width: 25vw;
 	}
 }
