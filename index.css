@@ -25,6 +25,7 @@ html {
 .navbar_wrapper {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
 }
 
 .navbar_left {
@@ -86,9 +87,18 @@ html {
 	flex-direction: column;
 	justify-content: space-around;
 	margin-top: 28vh;
+}
+.hero_left_l1 {
 	font-family: 'Poppins', sans-serif;
-	font-weight: 900;
-	font-size: 4rem;
+	font-weight: 850;
+	font-size: 3.5rem;
+	line-height: 0px;
+}
+.hero_left_l2 {
+	margin-top: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 850;
+	font-size: 3.5rem;
 }
 .hero_left_btn {
 	height: 6vh;
@@ -343,9 +353,9 @@ html {
 }
 .testimonial2 {
 	margin-left: 47vw;
-	transform: translate(10%,-170%);
-	width:23vw;
-	height:35vh;
+	transform: translate(10%, -170%);
+	width: 23vw;
+	height: 35vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -371,7 +381,7 @@ html {
 	order: 0;
 	align-self: center;
 	flex-grow: 0;
-    font-feature-settings: 'salt' on, 'liga' off;
+	font-feature-settings: 'salt' on, 'liga' off;
 	color: #18191f;
 }
 .testimonial2_minitxt {
@@ -404,10 +414,10 @@ html {
 	opacity: 0.4;
 }
 .testimonial3 {
-margin-left: 48vw;
-	transform: translate(8%,-180%);
-	width:17vw;
-	height:30vh;
+	margin-left: 48vw;
+	transform: translate(8%, -180%);
+	width: 17vw;
+	height: 30vh;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -433,7 +443,7 @@ margin-left: 48vw;
 	order: 0;
 	align-self: center;
 	flex-grow: 0;
-    font-feature-settings: 'salt' on, 'liga' off;
+	font-feature-settings: 'salt' on, 'liga' off;
 	color: #18191f;
 }
 .testimonial3_minitxt {
@@ -454,7 +464,7 @@ margin-left: 48vw;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-transform: translate(15%, 290%);
+	transform: translate(15%, 290%);
 	position: absolute;
 	width: 147px;
 	height: 52px;
@@ -467,3 +477,159 @@ transform: translate(15%, 290%);
 }
 /* Reviews End*/
 /* Home Ends */
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1200px) {
+	.testimonial1 {
+		height: 30vh;
+	}
+	.testimonial2 {
+		height: 20vh;
+	}
+	.testimonial3 {
+		margin-top: 5vh;
+		height: 20vh;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.testimonial1_text {
+		line-height: 15px;
+	}
+	.testimonial2_text {
+		line-height: 15px;
+	}
+	.testimonial3_text {
+		line-height: 15px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.carousel_logos img {
+		width: 8vw;
+		height: 3vh;
+	}
+
+	.hero_left_l1 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 650;
+		font-size: 3rem;
+		line-height: 0px;
+	}
+	.hero_left_l2 {
+		margin-top: 0;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 650;
+		font-size: 3rem;
+	}
+
+	.navbar_wrapper {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 856px) {
+	.hero_left_l1 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 450;
+		font-size: 2rem;
+		line-height: 0px;
+	}
+	.hero_left_l2 {
+		margin-top: 0;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 450;
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.reviews_heading {
+		font-weight: 600;
+		font-size: 2rem;
+	}
+	.hero_left_l1 {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 250;
+		font-size: 2rem;
+		line-height: 0px;
+		margin-left: 2vw;
+	}
+	.hero_left_l2 {
+		margin-top: 0;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 250;
+		font-size: 2rem;
+		margin-left: 2vw;
+	}
+
+	.hero_left_btn {
+		margin-left: 2vw;
+	}
+
+	.hero_wrapper {
+		flex-direction: column;
+	}
+
+	.Row1_data {
+		flex-direction: column;
+	}
+	.Row2_data {
+		flex-direction: column;
+	}
+
+	.testimonial1 {
+		margin-left: 17vw;
+		height: 30vh;
+		width: 25vw;
+	}
+	.testimonial2 {
+		height: 20vh;
+		width: 30vw;
+	}
+	.testimonial3 {
+		margin-top: 5vh;
+		height: 20vh;
+		width: 25vw;
+	}
+}
+
+@media screen and (max-width: 584px) {
+	.TailorM_heading {
+		font-weight: 500 !important;
+		font-size: 2rem;
+	}
+	.navbar_left {
+		flex-direction: column;
+	}
+
+	.hero_left_btn {
+		margin-left: 2vw;
+		width: 20vw;
+	}
+
+	.testimonial1 {
+		margin-left: 17vw;
+		height: 30vh;
+		width: 30vw;
+	}
+	.testimonial1_text {
+		width: 25vw;
+	}
+	.testimonial2 {
+		height: 20vh;
+		width: 35vw;
+	}
+	.testimonial2_text {
+		width: 25vw;
+	}
+	.testimonial3 {
+		margin-top: 5vh;
+		height: 20vh;
+		width: 30vw;
+	}
+	.testimonial3_text {
+		width: 25vw;
+	}
+}
