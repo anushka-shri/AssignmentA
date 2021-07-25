@@ -666,9 +666,75 @@ html {
 	color: #8c30f5;
 }
 /* //Last section ends */
+
+/* Footer Section */
+.footer_wrapper {
+	height: 45vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background: black;
+	transform: translate(0, 670%);
+}
+
+.footer_left {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6vh;
+}
+
+.footer_img1 {
+	height: 6vh;
+	width: 3vw;
+	border-radius: 50%;
+}
+
+.footer_left_line1 {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	text-align: left;
+	font-size: 1rem;
+}
+.footer_left_line2 {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	text-align: left;
+	font-size: 1rem;
+}
+
+.footer_line2_p {
+	margin-left: 1.5vw;
+	text-align: left;
+}
+
+.tm {
+	color: white;
+	font-size: 0.9rem;
+}
+
+.footer_right {
+	display: flex;
+	flex-direction: column;
+	margin-top: 6vh;
+}
+
+.footer_right_line1{
+	color: white;
+}
+
+.flogo1, .flogo2{
+	margin-top:3vh;
+	border-radius: 6px;
+}
+
+
+
 /* Home Ends */
 
-/* ----------------RESPONSIVE DESIGN------------------------- */
+/* -----------------------------------RESPONSIVE DESIGN------------------------- */
 
 @media screen and (max-width: 1200px) {
 	.testimonial1 {
