@@ -134,6 +134,76 @@ html {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	overflow: hidden;
+	transform-style: preserve-3d;
+	width: 90%;
+}
+
+.carousel_logos * {
+	box-sizing: border-box;
+}
+.carousel__photo {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 20%;
+	margin: auto;
+	padding: 1rem 4rem;
+	z-index: 100;
+	transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+.carousel__photo.initial,
+.carousel__photo.active {
+	opacity: 1;
+	position: relative;
+	z-index: 900;
+}
+.carousel__photo.prev,
+.carousel__photo.next {
+	opacity: 0.2;
+	z-index: 800;
+}
+.carousel__photo.prev {
+	transform: translateX(-100%); /* Move 'prev' item to the left */
+}
+.carousel__photo.next {
+	transform: translateX(100%); /* Move 'next' item to the right */
+}
+.carousel__button--prev,
+.carousel__button--next {
+	position: absolute;
+	top: 50%;
+	width: 3rem;
+	height: 3rem;
+	background-color: #fff;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 1001; /* Sit on top of everything */
+	border: 1px solid rgb(10, 13, 141);
+	
+}
+.carousel__button--prev {
+	left: 0;
+}
+.carousel__button--next {
+	right: 0;
+}
+.carousel__button--prev::after,
+.carousel__button--next::after {
+	content: ' ';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	left: 54%;
+	border-right: 2px solid rgb(0, 17, 95);
+	border-bottom: 2px solid rgb(11, 1, 100);
+	transform: translate(-50%, -50%) rotate(135deg);
+}
+.carousel__button--next::after {
+	left: 47%;
+	transform: translate(-50%, -50%) rotate(-45deg);
 }
 /* Carousel ends */
 
@@ -682,12 +752,14 @@ html {
 	display: flex;
 	flex-direction: column;
 	margin-top: 6vh;
+	margin-right: 10vw;
 }
 
 .footer_img1 {
 	height: 6vh;
 	width: 3vw;
 	border-radius: 50%;
+	margin-left: 1.5vw;
 }
 
 .footer_left_line1 {
@@ -701,7 +773,7 @@ html {
 	display: flex;
 	flex-direction: row;
 	color: white;
-	text-align: left;
+
 	font-size: 1rem;
 }
 
@@ -713,24 +785,24 @@ html {
 .tm {
 	color: white;
 	font-size: 0.9rem;
+	margin-left: 1.5vw;
 }
 
 .footer_right {
 	display: flex;
 	flex-direction: column;
-	margin-top: 6vh;
+	margin-top: 10vh;
 }
 
-.footer_right_line1{
+.footer_right_line1 {
 	color: white;
 }
 
-.flogo1, .flogo2{
-	margin-top:3vh;
+.flogo1,
+.flogo2 {
+	margin-top: 3vh;
 	border-radius: 6px;
 }
-
-
 
 /* Home Ends */
 
