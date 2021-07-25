@@ -101,7 +101,7 @@ html {
 	font-size: 3.5rem;
 }
 .hero_left_btn {
-	height: 6vh;
+	height: 7vh;
 	width: 10vw;
 	margin-top: 3vh;
 	padding: 1%;
@@ -493,7 +493,7 @@ html {
 	margin-top: 15vh;
 	display: flex;
 	flex-direction: column;
-	margin-left: 0;
+	margin-left: 5vw;
 	transform: translate(-20%, 0%);
 }
 
@@ -606,15 +606,64 @@ html {
 /* //Stats End*/
 
 /* Last section begins */
-.last_section{
+.last_section {
 	display: flex;
 	flex-direction: row;
 	position: absolute;
 	justify-content: space-evenly;
-	background: rgb(70, 53, 53);
+	background: rgb(255, 255, 255);
 	width: 100vw;
-	height: 55vh;
-	transform: translate(0, 360%);
+	height: 100vh;
+	transform: translate(0, 192%);
+}
+
+.last_section img {
+	width: 40vw;
+	height: 85vh;
+	transform: translate(-2%, 7%);
+}
+
+.last_section_text {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+	margin-top: 25vh;
+	margin-right: 5vw;
+}
+
+.lastsec_headline {
+	position: static;
+	width: 30vw;
+	height: 5vh;
+	margin-left: 0vw;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 2.5rem;
+}
+
+.lastsec_text {
+	position: static;
+	width: 30vw;
+	height: 20vh;
+	margin-top: 5vh;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.1rem;
+	line-height: 32px;
+}
+
+.lastsec_gets {
+	position: absolute;
+	margin-top: 50vh;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 24px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #8c30f5;
 }
 /* //Last section ends */
 /* Home Ends */
